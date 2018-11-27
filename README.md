@@ -8,15 +8,15 @@ Clone the repo and run `make` command in the terminal.
 
 # How to use:
 
-./ash --help views a list of commands.
+_./ash --help_ views a list of commands.
 
-./ash --list:
+_./ash --list_:
 views a list of the keys and the commands associated with each of them.
 
-./ash --add key command:
+_./ash --add key command_:
 Associates the key with the command.
 Ex: ./ash --add hey "notify-send 'Hello world'"
 
-./ash --remove key:
+_./ash --remove key_:
 removes the given key.
-
+EX: ./ash --remove hey
